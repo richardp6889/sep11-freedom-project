@@ -22,10 +22,10 @@ This makes the designated image to be loaded with the script launch.}
 ```
 This makes it so that if you have an image you need to create not with the game being loaded but after the game is started.
 
-[https://impactjs.com/documentation/working-with-assets](impact preloader)
-[https://impactjs.com/documentation/getting-started](getting started with impactjs)
+(https://impactjs.com/documentation/working-with-assets) [impact preloader]
+(https://impactjs.com/documentation/getting-started) [getting started with impactjs]
 
-Having suffered but eventually figured it out made me realize that I will stick with this tool since it is pushing me hard and not letting me go to the easier more understandable kaboomjs. I will probably now start to learn how to make the assets interactable then make them interact. 
+Having suffered but eventually figured it out made me realize that I will stick with this tool since it is pushing me hard and not letting me go to the easier more understandable kaboomjs. I will probably now start to learn how to make the assets interactable then make them interact.
 
 <!--
 * Links you used today (websites, videos, etc)
