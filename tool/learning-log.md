@@ -27,6 +27,9 @@ This makes it so that if you have an image you need to create not with the game 
 
 Having suffered but eventually figured it out made me realize that I will stick with this tool since it is pushing me hard and not letting me go to the easier more understandable kaboomjs. I will probably now start to learn how to make the assets interactable then make them interact.
 
+10/28/24
+Trying to understand what the tutorial did.
+Breaking down on what each line and value given did to the interaction. 
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
