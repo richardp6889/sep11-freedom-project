@@ -29,7 +29,10 @@ Having suffered but eventually figured it out made me realize that I will stick 
 
 10/28/24
 Trying to understand what the tutorial did.
-Breaking down on what each line and value given did to the interaction. 
+Breaking down on what each line and value given did to the interaction.
+
+11/04/2024
+This week while on slack one of the members mentioned that it was best to move everything over to replit and that is exactly what I did and I don't know exactly if I was suppose to import the repl from github or creat the php server template and carry over the file from my IDE. 
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
