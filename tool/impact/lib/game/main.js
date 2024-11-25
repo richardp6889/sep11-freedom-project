@@ -3,8 +3,10 @@ ig.module(
 )
 .requires(
 	'impact.game',
-	'impact.font'
+	'impact.font',
+	
 )
+
 .defines(function(){
 
 MyGame = ig.Game.extend({

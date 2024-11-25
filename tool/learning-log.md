@@ -31,8 +31,15 @@ Having suffered but eventually figured it out made me realize that I will stick 
 Trying to understand what the tutorial did.
 Breaking down on what each line and value given did to the interaction.
 
-11/04/2024
-This week while on slack one of the members mentioned that it was best to move everything over to replit and that is exactly what I did and I don't know exactly if I was suppose to import the repl from github or creat the php server template and carry over the file from my IDE. 
+11/11/2024
+This week while on slack one of the members mentioned that it was best to move everything over to replit and that is exactly what I did and I don't know exactly if I was suppose to import the repl from github or creat the php server template and carry over the file from my IDE.
+
+11/23
+Mr Muller recommended using php -S localhost:8000 to have weltmeister.html running but for me it ended up just opening the index.html of the impact folder and gave no other option to open the weltmeister. Couldn't really do much since nothing worked with replit either.
+
+
+
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
