@@ -7,10 +7,10 @@ ig.module(
 .defines(function(){
 EntityPaddle = ig.Entity.extend({
 
-    size: {x:64, y128},
+    size: {x:64, y:128},
     collides: ig.Entity.COLLIDES.FIXED,
 
-    animSheet: new ig.AnimationSHeet( 'media/paddle.png', 64, 128 ),
+    animSheet: new ig.AnimationSheet( 'media/paddle.png', 64, 128 ),
 
     init: function( x, y, settings ){
         this,parent( x, y, settings );

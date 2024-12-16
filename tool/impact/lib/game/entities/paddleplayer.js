@@ -15,7 +15,7 @@ EntityPaddlePlayer = EntityPaddle.extend({
                 this.vel.y = 100;
             }
             else if( ig.input.state('down') ) {
-                this.vel.y = 100'
+                this.vel.y = 100;
             }
             else {
                 this.vel.y = 0;
