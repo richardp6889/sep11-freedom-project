@@ -41,7 +41,10 @@ Mr Muller recommended using php -S localhost:8000 to have weltmeister.html runni
 I moved to the sandbox to reset the impact and to make such the weltmesiter could work since it didn't work on the regular tool folder and it works with nothing on it but when I put a file and opened weltmeister and opened the console it gave me an error in the jQuery and I dont understand any of it.
 
 12/26-12/31
-reread most of the impactjs documentation and began creating a level for my game. 
+reread most of the impactjs documentation and began creating a level for my game.
+
+01/06
+I moved the working impact folder into my projects folder and started working on the player.js. Switch the bricks for the level with a moss. 
 
 <!--
 * Links you used today (websites, videos, etc)

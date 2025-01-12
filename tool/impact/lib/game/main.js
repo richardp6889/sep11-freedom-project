@@ -4,9 +4,7 @@ ig.module(
 .requires(
 	'impact.game',
 	'impact.font',
-	
 )
-
 .defines(function(){
 
 MyGame = ig.Game.extend({
@@ -18,6 +16,9 @@ MyGame = ig.Game.extend({
 	init: function() {
 		ig.input.bind( ig.KEY.DOWN_ARROW, 'down');
 		ig.input.bind( ig.KEY.UP_ARROW, 'up');
+		ig.input.bind( ig.KEY.LEFT_ARROW, 'left');
+		ig.input.bind( ig.KEY.RIGHT_ARROW, 'right');
+		// Initialize your game here; bind keys etc.
 	},
 
 	update: function() {
