@@ -2,7 +2,7 @@
 ##### 02/09/25
 
 I spend most of the winter break making sure there is a base for my level and creating the file for the player functions all was created except for the image since it wasn't loading the proper image and that made it just be a black square with the title of the file.
-![Level](0925.png)
+![Level](https://raw.githubusercontent.com/richardp6889/sep11-freedom-project/refs/heads/main/images/0925.png)
 Overall I have gfinish the first part of the level since the next thing that will follow it will be implementing the physics part for acending and decending the platforms and extending the level. The parts I have done are giving the program the keybinds that are going to be used the attributes that the player will have for the game and that solid parts of the level since those images are working.
 
 [what the module can contain](https://impactjs.com/documentation/class-reference/entity)
