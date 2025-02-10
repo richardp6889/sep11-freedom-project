@@ -1,8 +1,14 @@
 ig.module( 'game.levels.main' )
-.requires( 'impact.image' )
+.requires( 'impact.image','game.entities.player' )
 .defines(function(){
 LevelMain=/*JSON[*/{
-	"entities": [],
+	"entities": [
+		{
+			"type": "EntityPlayer",
+			"x": 44,
+			"y": 384
+		}
+	],
 	"layer": [
 		{
 			"name": "collision",
@@ -40,7 +46,7 @@ LevelMain=/*JSON[*/{
 			"preRender": false,
 			"distance": "1",
 			"tilesize": 48,
-			"foreground": false,
+			"foreground": true,
 			"data": [
 				[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
 				[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],

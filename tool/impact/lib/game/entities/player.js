@@ -8,16 +8,20 @@ ig.module(
 
 EntityPlayer = ig.Entity.extend({
 
-	size: {x:64, y:128},
+	size: {x: 48, y: 48},
 	collides: ig.Entity.COLLIDES.FIXED,
 
-	animSheet: new ig.AnimationSheet( 'media/sapling.png', 64, 128 ),
+	animSheet: new ig.AnimationSheet( 'media/transparentball.png', 75, 100 ),
 
-	init: function( x, y, settings ) {
-		this.parent( x, y, settings );
+	// init: function( x, y, settings ) {
+	// 	this.parent( x, y, settings );
 
-		this.addAnim( 'idle', 1, [0] );
-	}
+
+	// 	this.vel.x = -200;
+	// 	this.vel.y = 100;
+
+	// }
+	// this.parent();
 });
 
 });
