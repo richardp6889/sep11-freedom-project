@@ -1,21 +1,23 @@
 # Plan
 
-## Tool: 
-## Product: 
+## Tool: ImpactJs
+## Product: 2D platformer where you have to avoid enemies
 
 ---
 
 ## Timeline
+From today 02/10 to the end of or start of new month all problems revolving around the first level should be gone and near perfected
 
+the break week 02/17-21 I will finish what the level should look like and get the sprite visible
 #### MVP
 
-- [ ] Task (deadline: X)
-  - [ ] Subtask (deadline: X)
+- [ ] The first level at least since it will be long  (deadline: 02/28 to 03/01)
+  - [ ] May the level feel smooth, no chunky feel(deadline: if possible around the same time)
 
 #### Beyond MVP
 
-- [ ] Task
-  - [ ] Subtask
+- [ ] Adding another level that revolts a different theme
+  - [ ] Add a different character of enemies. 
 
 
 <!-- EXAMPLE
