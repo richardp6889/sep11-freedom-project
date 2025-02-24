@@ -44,7 +44,10 @@ I moved to the sandbox to reset the impact and to make such the weltmesiter coul
 reread most of the impactjs documentation and began creating a level for my game.
 
 01/06
-I moved the working impact folder into my projects folder and started working on the player.js. Switch the bricks for the level with a moss. 
+I moved the working impact folder into my projects folder and started working on the player.js. Switch the bricks for the level with a moss.
+
+02/21
+I extend the first level and added the background for it 
 
 <!--
 * Links you used today (websites, videos, etc)
