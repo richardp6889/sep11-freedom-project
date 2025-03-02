@@ -47,7 +47,10 @@ reread most of the impactjs documentation and began creating a level for my game
 I moved the working impact folder into my projects folder and started working on the player.js. Switch the bricks for the level with a moss.
 
 02/21
-I extend the first level and added the background for it 
+I extend the first level and added the background for it
+
+03/01
+This week I spent my time making sprite for my game and added the only one I completed which is the tree. I probably wil spend continuing sprite creation and learning what size I should scale them to so they don't look chopped if I want to reuse it later on.
 
 <!--
 * Links you used today (websites, videos, etc)

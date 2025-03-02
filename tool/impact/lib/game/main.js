@@ -4,8 +4,6 @@ ig.module(
 .requires(
 	'impact.game',
 	'impact.font',
-	
-	'game.entities.sapling'
 
 	'game.levels.main'
 )
@@ -18,13 +16,12 @@ MyGame = ig.Game.extend({
 
 
 	init: function() {
-		ig.input.bind( ig.KEY.DOWN_ARROW, 'down');
-		ig.input.bind( ig.KEY.UP_ARROW, 'up');
-		ig.input.bind( ig.KEY.LEFT_ARROW, 'left');
-		ig.input.bind( ig.KEY.RIGHT_ARROW, 'right');
+		ig.input.bind( ig.KEY.UP_ARROW, 'up' );
+		ig.input.bind( ig.KEY.DOWN_ARROW, 'down' );
+		ig.input.bind( ig.KEY.LEFT_ARROW, 'left' );
+		ig.input.bind( ig.KEY.RIGHT_ARROW, 'right' );
 
 		this.loadLevel( LevelMain );
-		// Initialize your game here; bind keys etc.
 	},
 
 	update: function() {
@@ -37,17 +34,10 @@ MyGame = ig.Game.extend({
 	draw: function() {
 		// Draw all entities and backgroundMaps
 		this.parent();
-
-
-		// // Add your own drawing code here
-		// var x = ig.system.width/2,
-		// 	y = ig.system.height/2;
-
-		// this.font.draw( 'It Works!', x, y, ig.Font.ALIGN.CENTER );
 	}
 });
 
 
-ig.main( '#canvas', MyGame, 60, 320, 240, 2 );
+ig.main( '#canvas', MyGame, 60, 768, 480, 1 );
 
 });
