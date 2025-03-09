@@ -52,6 +52,9 @@ I extend the first level and added the background for it
 03/01
 This week I spent my time making sprite for my game and added the only one I completed which is the tree. I probably wil spend continuing sprite creation and learning what size I should scale them to so they don't look chopped if I want to reuse it later on.
 
+03/09
+This week I countinued to work on my sprite though I didn't add anything since its a multi frame image that require more though for it to be decently smooth when it moves in game. 
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
