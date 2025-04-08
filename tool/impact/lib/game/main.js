@@ -16,10 +16,10 @@ MyGame = ig.Game.extend({
 
 
 	init: function() {
-		ig.input.bind( ig.KEY.UP_ARROW, 'up' );
-		ig.input.bind( ig.KEY.DOWN_ARROW, 'down' );
 		ig.input.bind( ig.KEY.LEFT_ARROW, 'left' );
 		ig.input.bind( ig.KEY.RIGHT_ARROW, 'right' );
+		ig.input.bind( ig.KEY.X, 'jump' );
+
 
 		this.loadLevel( LevelMain );
 	},
@@ -27,7 +27,8 @@ MyGame = ig.Game.extend({
 	update: function() {
 		// Update all entities and backgroundMaps
 		this.parent();
-
+		this.screen.x = this.player.pos.x - ig.system.width/2;
+		this.screen.y = this.player.pos.y - ig.system.height/2;
 		// Add your own, additional update code here
 	},
 
