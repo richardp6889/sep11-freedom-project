@@ -32,7 +32,7 @@ EntityBottle = ig.Entity.extend({
 
 	_wmScalable: true,
 	_wmDrawBox: true,
-	_wmBoxColor: 'rgba(196, 255, 0, 0.7)',
+	_wmBoxColor: 'rgba(196, 255, 0, 0)',
 
 	target: null,
 	wait: -1,

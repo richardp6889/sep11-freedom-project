@@ -27,11 +27,7 @@ EntityNextlv = ig.Entity.extend({
 
 	triggeredBy: function( entity, trigger ) {
 		if( this.level ) {
-			var levelName = this.level.replace(/^(Level)?(\w)(\w*)/, function( m, l, a, b ) {
-				return a.toUpperCase() + b;
-			});
-
-			ig.game.loadLevelDeferred( ig.global['Level'+levelName] );
+			ig.game.loadLevelDeferred( ig.global['LevelVertical'] );
 		}
 	},
 

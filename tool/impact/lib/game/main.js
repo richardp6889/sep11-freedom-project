@@ -5,12 +5,14 @@ ig.module(
 	'impact.game',
 	'impact.font',
 
-	'game.levels.main'
+	'game.levels.main',
+	'game.levels.vertical'
 )
 .defines(function(){
 
 MyGame = ig.Game.extend({
 
+	gravity: 1000,
 	// Load a font
 	font: new ig.Font( 'media/04b03.font.png' ),
 
@@ -19,17 +21,19 @@ MyGame = ig.Game.extend({
 		ig.input.bind( ig.KEY.LEFT_ARROW, 'left' );
 		ig.input.bind( ig.KEY.RIGHT_ARROW, 'right' );
 		ig.input.bind( ig.KEY.X, 'jump' );
-
-
 		this.loadLevel( LevelMain );
 	},
-
+	reloadLevel: function() {
+		this.loadLevelDeferred( this.currentLevel );
+	},
+	loadLevel: function( data ) {
+		this.currentLevel = data;
+		this.parent( data );
+	},
 	update: function() {
-		// Update all entities and backgroundMaps
 		this.parent();
 		this.screen.x = this.player.pos.x - ig.system.width/2;
-		this.screen.y = this.player.pos.y - ig.system.height/2;
-		// Add your own, additional update code here
+		this.screen.y = this.player.pos.y - ig.system.height/1.5;
 	},
 
 	draw: function() {
