@@ -20,7 +20,8 @@ MyGame = ig.Game.extend({
 	init: function() {
 		ig.input.bind( ig.KEY.LEFT_ARROW, 'left' );
 		ig.input.bind( ig.KEY.RIGHT_ARROW, 'right' );
-		ig.input.bind( ig.KEY.X, 'jump' );
+		// ig.input.bind( ig.KEY.UP_ARROW, 'jump' );
+		ig.input.bind( ig.KEY.SPACE, 'jump');
 		this.loadLevel( LevelMain );
 	},
 	reloadLevel: function() {

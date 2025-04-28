@@ -5,7 +5,7 @@ LevelMain=/*JSON[*/{
 	"entities": [
 		{
 			"type": "EntityPlayer",
-			"x": 80,
+			"x": 416,
 			"y": 320
 		},
 		{
