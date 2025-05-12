@@ -45,7 +45,6 @@ EntityPlayer = ig.Entity.extend({
 
 
 	update: function() {
-	// left*right
 		var accel = this.standing ? this.accelGround : this.accelAir;
 		if( ig.input.state('left') ) {
 			this.accel.x = -accel;
@@ -59,7 +58,7 @@ EntityPlayer = ig.Entity.extend({
 			this.accel.x = 0;
 		}
 
-		// jump
+
 		if( this.standing && ig.input.pressed('jump') ) {
 			this.vel.y = -this.jump;
 		}
@@ -67,11 +66,6 @@ EntityPlayer = ig.Entity.extend({
 			this.kill();
 		}
 
-
-
-
-
-		// Move!
 		this.parent();
 	},
 

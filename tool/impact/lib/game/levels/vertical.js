@@ -1,5 +1,5 @@
 ig.module( 'game.levels.vertical' )
-.requires( 'impact.image','game.entities.player','game.entities.bottle','game.entities.fallout' )
+.requires( 'impact.image','game.entities.player','game.entities.bottle','game.entities.fallout','game.entities.nextlvd' )
 .defines(function(){
 LevelVertical=/*JSON[*/{
 	"entities": [
@@ -14,7 +14,7 @@ LevelVertical=/*JSON[*/{
 			"y": 1376,
 			"settings": {
 				"size": {
-					"x": 476,
+					"x": 2020,
 					"y": 32
 				},
 				"target": {
@@ -26,11 +26,11 @@ LevelVertical=/*JSON[*/{
 		},
 		{
 			"type": "EntityBottle",
-			"x": -308,
+			"x": -2024,
 			"y": 1384,
 			"settings": {
 				"size": {
-					"x": 304,
+					"x": 2020,
 					"y": 32
 				},
 				"target": {
@@ -41,11 +41,34 @@ LevelVertical=/*JSON[*/{
 		},
 		{
 			"type": "EntityFallout",
-			"x": 176,
-			"y": 1344,
+			"x": 244,
+			"y": 1380,
 			"settings": {
 				"name": "Fallout",
 				"damage": 100
+			}
+		},
+		{
+			"type": "EntityBottle",
+			"x": 484,
+			"y": 140,
+			"settings": {
+				"size": {
+					"x": 80,
+					"y": 44
+				},
+				"target": {
+					"1": "nextlvd"
+				}
+			}
+		},
+		{
+			"type": "EntityNextlvd",
+			"x": 508,
+			"y": 64,
+			"settings": {
+				"name": "nextlvd",
+				"level": "LevelDesert"
 			}
 		}
 	],
@@ -55,7 +78,7 @@ LevelVertical=/*JSON[*/{
 			"width": 15,
 			"height": 30,
 			"linkWithCollision": false,
-			"visible": true,
+			"visible": 1,
 			"tilesetName": "",
 			"repeat": false,
 			"preRender": false,
@@ -98,7 +121,7 @@ LevelVertical=/*JSON[*/{
 		{
 			"name": "main",
 			"width": 15,
-			"height": 30,
+			"height": 31,
 			"linkWithCollision": false,
 			"visible": 1,
 			"tilesetName": "media/brick.png",
@@ -136,6 +159,7 @@ LevelVertical=/*JSON[*/{
 				[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
 				[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0],
 				[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+				[1,1,1,1,1,1,1,1,1,1,1,0,0,0,0],
 				[1,1,1,1,1,1,1,1,1,1,1,0,0,0,0],
 				[1,1,1,1,1,1,1,1,1,1,1,0,0,0,0]
 			]
