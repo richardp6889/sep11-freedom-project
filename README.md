@@ -1,22 +1,22 @@
 # SEP11 Freedom Project
-by **X**
+by **Richard Perez**
 
 ## Context
 I am a student at [HSTAT](https://www.hstat.org/) in the [Software Engineering Program](https://hstatsep.github.io/). The "Freedom Project" for SEP11 is a year-long project all about making something using JavaScript along with a third-party JS tool.
 
-For my project, I chose to independently study **X** in order to help me make **X**.
+For my project, I chose to independently study **ImpactJs** in order to help me make **a parkour platformer**.
 
 ## Links
 
-[Product]()
+[Product](https://richardp6889.github.io/sep11-freedom-project/tool/impact/)
 
-[Presentation]()
+[Presentation](https://docs.google.com/presentation/d/1ltJkicIwixf4KoNDcRu3_SAzT2R1jCsChFjckZiEyzY/edit)
 
 ## Implications
 ##### PROS
-* 
+* Sharpens someones reflexes and thinking skills
 ##### CONS
-* 
+* As all games they can distract someone from doing something productive
 
 
 ## Blog

@@ -1,16 +1,20 @@
 # Presentation Plan
 
 ## Hook
-* 
+* To those that create a game, What would youy say is the hardest part of game creation? -- share a similar sentiment that transitions
 
 ## Product
-* 
+* GIFS or another way to display the different levels and the idea behind the slip
 
 ## Process
-* 
+* Weltmeister level editor and describe how each button contributes
+* kill(); and what is does and how the reloading of levels after dying/switching to another level functions
+* struggle was getting it up and running/creating what I wanted it to be
 
 ## Conclusion
-* 
+* https://richardp6889.github.io/sep11-freedom-project/tool/impact/
+* Find a way that is comfortable to how you'd want to do it. I found people on youtube that explained it and the documentation provided resources that could be descontructed to learn how it works.
+
 
 <!-- EXAMPLE
 

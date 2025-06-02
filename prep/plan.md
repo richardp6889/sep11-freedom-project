@@ -11,13 +11,13 @@ From today 02/10 to the end of or start of new month all problems revolving arou
 the break week 02/17-21 I will finish what the level should look like and get the sprite visible
 #### MVP
 
-- [ ] The first level at least since it will be long  (deadline: 02/28 to 03/01)
-  - [ ] May the level feel smooth, no chunky feel(deadline: if possible around the same time)
+- [X] The first level at least since it will be long  (deadline: 02/28 to 03/01)
+  - [X] Make the level feel smooth, no chunky feel(deadline: if possible around the same time)
 
 #### Beyond MVP
 
-- [ ] Adding another level that revolts a different theme
-  - [ ] Add a different character of enemies. 
+- [ ] Adding more levels
+  - [ ] Add a way to keep track of yourself
 
 
 <!-- EXAMPLE
